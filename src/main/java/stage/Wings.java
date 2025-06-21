@@ -1,4 +1,14 @@
 package stage;
 
-public interface Wings {
+public class Wings {
+
+    private int size;
+
+    public Wings(int size) {
+        this.size = size;
+    }
+
+    public int getSize() {
+        return size;
+    }
 }
